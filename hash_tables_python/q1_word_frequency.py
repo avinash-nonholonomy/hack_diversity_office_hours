@@ -10,7 +10,7 @@ Input: book = ["always", "code", "as", "if", "the", "guy", "who", "ends", "up", 
 Word = "who"
 Output: 2
 """
-
+# Note - look up collections.Counter for the built-in python way of doing this: https://docs.python.org/3/library/collections.html
 def build_dictionary(words):
     # create an empty dict (hash table/associative array)
     dictionary = dict() 
